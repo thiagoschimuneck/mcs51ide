@@ -1,0 +1,15 @@
+MCS51IDE
+by Thiago Schimuneck 2013
+
+Instrucoes
+
+Para montagem da IDE utilizar Netbeans 7.3 ou superior com Java 1.7 ou superior
+Utilizar SDCC 2.9.0 e incluir a pasta bin no path do sistema
+Instalar biblioteca RXTX padrão no sistema.
+
+Para CMON51
+Compilar utilizando o SDCC(2.9.0) atraves do comando:
+$ make -f 8052.mak
+
+Gravar firmware 8052.ihx no Chip.
+
